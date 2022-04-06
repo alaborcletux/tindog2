@@ -1,0 +1,154 @@
+
+#title{
+    background-color: #ff4c86;
+} 
+body{
+    font-family: "Montserrat";
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+#title h1{ 
+    font-family: "Montserrat-black";
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color:#fff;
+}
+
+
+/* navigation-bar */
+.navbar{
+    padding: 0 0 4.5rem ;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font: 22.5rem;
+}
+
+/* Downloadbtn button */
+.Downloadbtn{
+    margin: 5% 5% 5% 0;
+}
+/* title-images */
+.title-image{
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+    margin-right: 30%;
+}
+/* .features section */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+.features-box{
+    text-align: center;
+    padding: 5%;
+}
+.features-box h3{
+    font-family: "Montserrat-black";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.features-box p{
+    color: #aa9d9d;
+    font-size: 90%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#ff4c86;
+}
+.features-box:hover{
+    border: 1px solid #ff4c86;
+    
+}
+#testimonials{
+   
+    text-align: center;
+    background-color: #ff4c86;
+    color: #fff;
+}
+#testimonials h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press section */
+#press{
+    background-color: #ff4c86;
+    text-align: center;
+    padding-bottom: 7%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 30px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 5%;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+/* <!-- Call to Action --> */
+#cta{
+    background-color: #ff4c86;
+    text-align: center;
+    padding: 7% 15%;
+    color: #fff;
+}
+.cta-text h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 4rem;
+    padding: 3% 0;
+    line-height: 1.5;
+}
+.button-1{
+    margin: 5% 5% 5% 0;
+}
+
+/* foost section */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.icons{
+    margin: 2% 1%;
+}
+@media (max-width:900px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+}
+
